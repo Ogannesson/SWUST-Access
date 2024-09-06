@@ -1,0 +1,20 @@
+{
+    "appName": {
+        "message": "SWUST Access"
+    },
+    "description": {
+        "message": "通过将列表中的域名从https转换回http，解决学校相关网站无法登录/访问的问题。"
+    },
+    "statusTip": {
+        "message": "当前状态:"
+    },
+    "inputTip": {
+        "message": "请填写采用http协议的域名列表，用“;”或“换行符”隔开"
+    },
+    "statusOn": {
+        "message": "已启用"
+    },
+    "statusOff": {
+        "message": "已禁用"
+    }
+}

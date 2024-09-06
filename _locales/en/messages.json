@@ -1,0 +1,23 @@
+{
+    "appName": {
+        "message": "SWUST Access"
+    },
+    "version": {
+        "message": "1.0.0"
+    },
+    "description": {
+        "message": "Solve the problem of being unable to log in/access school-related websites by converting the domain names in the list from https back to http."
+    },
+    "statusTip": {
+        "message": "Current status:"
+    },
+    "inputTip": {
+        "message": "Please fill in the list of domain names using the http protocol, separated by \";\" or \"newline\""
+    },
+    "statusOn": {
+        "message": "Enable"
+    },
+    "statusOff": {
+        "message": "Disable"
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <script type="text/javascript" src="js/libs/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <style>
+        input[type='checkbox'].switch{
+            outline: none;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            position: relative;
+            width: 40px;
+            height: 20px;
+            background: #ccc;
+            border-radius: 10px;
+            transition: border-color .3s, background-color .3s;
+        }
+
+        input[type='checkbox'].switch::after {
+            content: '';
+            display: inline-block;
+            width: 1rem;
+            height:1rem;
+            border-radius: 50%;
+            background: #fff;
+            box-shadow: 0, 0, 2px, #999;
+            transition:.4s;
+            top: 2px;
+            position: absolute;
+            left: 2px;
+        }
+
+        input[type='checkbox'].switch:checked {
+            background: rgb(19, 206, 102);
+        }
+        input[type='checkbox'].switch:checked::after {
+            content: '';
+            position: absolute;
+            left: 55%;
+            top: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div><span style="float: left;line-height:28px;"><label id="statusTip"></label> <label id="showStatus" style="font-weight: bold;"></label></span> <span style="left: 20px; float:right;"><input id="switch" type="checkbox" class="switch"></span></div>
+        <br/><br/>
+        <label id="inputTip"></label>
+        <textarea id="httpList" cols="40" rows="20" placeholder="xxx.xxx.com;xxx.xxx.cn;"></textarea>
+    </div>
+</body>
+</html>
