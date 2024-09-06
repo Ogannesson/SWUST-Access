@@ -10,8 +10,8 @@
 ## 安装与使用
 
 1. **安装扩展**：
-    - 前往 [Chrome Web Store](#) 下载并安装扩展（审核中，暂不可用）。
-    - 前往 [Edge 加载项](#) 下载并安装扩展（审核中，暂不可用）。
+    - 前往 [Chrome Web Store](https://chromewebstore.google.com/) 下载并安装扩展（审核中，暂不可用）。
+    - 前往 [Edge 加载项](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN) 下载并安装扩展（审核中，暂不可用）。
     - 或者下载打包好的 `.crx` 文件，并手动安装。
 
 2. **启用扩展**：
@@ -50,6 +50,10 @@
 ## 开发者
 
 - **Zky** - 开发与维护
+  
+## 灵感来源于
+
+Chrome 应用商店拓展程序 [URL Rule](https://chromewebstore.google.com/detail/url-rule/enfdapnpdfpgjamddpkdfliienniaimb)
 
 ## 许可协议
 
