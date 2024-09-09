@@ -10,7 +10,7 @@
 ## 安装与使用
 
 1. **安装扩展**：
-    - 前往 [Chrome Web Store](https://chromewebstore.google.com/) 下载并安装扩展（审核中，暂不可用）。
+    - 前往 [Chrome 应用商店](https://chromewebstore.google.com/detail/swust-access/podfakoeacbcjhbenlffdajkakfmiggn) 下载并安装扩展。
     - 前往 [Edge 加载项](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN) 下载并安装扩展（审核中，暂不可用）。
     - 或者下载打包好的 `.crx` 文件，并手动安装。
 
@@ -36,11 +36,13 @@
 如果您对该扩展有改进建议或发现了问题，欢迎通过以下方式参与贡献：
 
 1. 克隆代码库：
+
     ```bash
     git clone https://github.com/your-repo/swust-access.git
     ```
 
 2. 创建一个新的分支并进行修改：
+
     ```bash
     git checkout -b feature/your-feature-name
     ```
@@ -49,7 +51,7 @@
 
 ## 开发者
 
-- **Zky** - 开发与维护
+- [**Zky**](https://github.com/Unbiseptium) - 开发与维护
   
 ## 灵感来源于
 
