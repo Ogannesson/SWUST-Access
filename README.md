@@ -1,6 +1,6 @@
 # SWUST Access
 
-**SWUST Access** 是一个 Chrome 扩展，帮助用户在访问特定网站时控制 HTTP 和 HTTPS 之间的自动重定向，特别适用于需要在 HTTP 协议下访问的站点。
+**SWUST Access** 是一个浏览器扩展，适用于 `Chrome`和 `Chromium`内核的浏览器（例如 `Edge`），帮助用户在访问特定网站时控制 HTTP 和 HTTPS 之间的自动重定向，适用于需要在 HTTP 协议下访问的站点。
 
 ## 功能简介
 
@@ -48,7 +48,6 @@
    - 输入完成后，点击文本框外任意区域，扩展会自动保存设置。
    - 扩展会自动对这些域名进行 HTTPS 到 HTTP 的重定向处理。
 
-
 ## 权限说明
 
 为了确保扩展功能正常运作，**SWUST Access** 需要以下权限：
@@ -56,6 +55,10 @@
 - **`storage`**：用于存储用户自定义的域名规则，并通过 `chrome.storage.sync` 功能在多设备之间同步这些设置。
 - **`declarativeNetRequest`**：用于动态管理和应用用户自定义的网络请求规则，实现 HTTPS 到 HTTP 的重定向功能。
 - **`host_permissions`**：扩展允许用户自定义域名规则，因此需要访问用户指定的任意网站，并对这些网站的请求进行处理。
+
+## 项目地址
+
+[SWUST Access](https://github.com/Unbiseptium/SWUST-Access)
 
 ## 如何贡献
 
