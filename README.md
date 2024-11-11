@@ -67,7 +67,7 @@
 1. 克隆代码库：
 
     ```bash
-    git clone https://github.com/your-repo/swust-access.git
+    git clone https://github.com/Ogannesson/SWUST-Access.git
     ```
 
 2. 创建一个新的分支并进行修改：
