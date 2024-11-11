@@ -21,7 +21,7 @@
    - 将下载的 `.crx` 文件拖入页面进行手动安装。
 
 3. **通过安装脚本安装**：
-   - 下载 Releases 中的 [`Auto-Install.zip`](https://github.com/Unbiseptium/SWUST-Access/releases/download/%E6%9C%80%E6%96%B0%E5%8F%91%E8%A1%8C%E7%89%88/Auto-Install.zip)。
+   - 下载 Releases 中的 [`Auto-Install.zip`](https://github.com/Ogannesson/SWUST-Access/releases/latest/download/Auto-Install.zip)。
    - 解压后双击运行 `install.bat`，并按照提示给予安装脚本管理员权限。
    - 插件文件会自动安装至 `C:\Program Files\SWUST Access` 目录。
    - 若需卸载扩展，请运行该目录下的 `uninstall.bat`，请勿手动移除扩展，避免被 Chrome 计入黑名单。
