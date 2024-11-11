@@ -3,7 +3,6 @@ const predefinedDomains = [
     "cas.swust.edu.cn",
     "myo.swust.edu.cn",
     "xsc.swust.edu.cn",
-    "sjjx.swust.edu.cn",
     "proj.swust.edu.cn",
     "uap.swust.edu.cn"
 ];
